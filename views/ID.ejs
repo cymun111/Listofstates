@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>States Population</title>
+  </head>
+  <body>
+    <ul>
+    <% states.forEach(function(states){ %>
+      <li><%= states.id +"," %> <%= states.population %></li>
+    <%}) %>
+  </ul>
+  </body>
+</html>
